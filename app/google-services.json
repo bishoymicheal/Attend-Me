@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "287526353009",
+    "firebase_url": "https://loginlocation-5ab3c.firebaseio.com",
+    "project_id": "loginlocation-5ab3c",
+    "storage_bucket": "loginlocation-5ab3c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:287526353009:android:5412affeea3456e2",
+        "android_client_info": {
+          "package_name": "net.corpy.loginlocation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "287526353009-ot629efkous82se3rli1bgqi998oajc0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.corpy.loginlocation",
+            "certificate_hash": "2c761d845ed48497f674a8870fdb74ec6587e05e"
+          }
+        },
+        {
+          "client_id": "287526353009-9je8imqnq9bjjbkf1g09aih1g2sril3e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrJYGeyDkOyoMS9rz5pLJ5K5ZahU_VG5w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "287526353009-9je8imqnq9bjjbkf1g09aih1g2sril3e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "287526353009-rsnmf21d8rldhvg4pc9l8o72uuchr5jr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "corpycore.Login-Location"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

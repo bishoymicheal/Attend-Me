@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AttendMe</string>
+    <string name="Checkout">تسجيل خروج</string>
+    <string name="add_employee">اضافة موظف</string>
+    <string name="add_location">اضافة موقع</string>
+    <string name="add_new_location">اضافة موقع</string>
+    <string name="adding_employee">اضافة موظف</string>
+    <string name="adding_employee_success">تم إضافة الموظف بنجاح</string>
+    <string name="attendance_records">تسجيلات الحضور</string>
+    <string name="attendance_report">تسجيل الحضور</string>
+    <string name="automatic_password">"انشاء رقم سري تلقائياّ "</string>
+    <string name="birth_date">تاريخ الميلاد</string>
+    <string name="cannot_connect_to_server">خطأ الاتصال بالخادم</string>
+    <string name="check_in">تسجيل الدخول</string>
+    <string name="checking">جارى التسجيل</string>
+    <string name="circle_radius_in_meters">قطر الدائرة بالمتر</string>
+    <string name="close">غلق</string>
+    <string name="confirm_password">تأكيد الرقم السري</string>
+    <!--Latitude = %1$s \nLongitude = %2$s-->
+    <string name="current_location">خط العرض = %1$s  \n خط الطول = %2$s</string>
+    <string name="dashboard">لوحة التحكم</string>
+    <string name="default_hours_diff">٠٠:٠٠ س</string>
+    <string name="default_time">--:--</string>
+    <string name="delete_confirm">هل انت متأكد من مسح هذا الملف</string>
+    <string name="description">الوصف</string>
+    <string name="details">التفاصيل</string>
+    <string name="detecting_location">تحديد الموقع</string>
+    <string name="dialog_cancel">إلغاء</string>
+    <string name="dialog_default_title">رسالة</string>
+    <string name="dialog_ok">موافق</string>
+    <string name="diff_time">%02d:%02d</string>
+    <string name="download">تنزيل</string>
+    <string name="email_address">البريد الإلكترونى</string>
+    <string name="email_already_exist">هذا البريد مسجل من قبل</string>
+    <string name="email_not_correct">البريد الإلكترونى غير صحيح</string>
+    <string name="email_password_are_same">البريد الإلكترونى او الرقم السري غير صحيح</string>
+    <string name="email_sent">تم إرسال رقم سري جديد الى البريد الإلكترونى</string>
+    <string name="employee_details">بيانات الموظف</string>
+    <string name="employees">الموظفين</string>
+    <string name="employees_reports">تقارير الموظفين</string>
+    <string name="empty_password">الرقم السري غير صحيح</string>
+    <string name="enter_circle_radius">برجاء إدخال قطر الدائرة</string>
+    <string name="enter_employee_age">الرجاء إدخال عمر الموظف</string>
+    <string name="enter_latitude">خط العرض</string>
+    <string name="enter_location_details">تفاصيل الموقع</string>
+    <string name="enter_location_title">اسم الموقع</string>
+    <string name="enter_longitude">خط الطول</string>
+    <string name="enter_your_email">ادخل بريدك الإلكترونى</string>
+    <string name="error_adding_employee">خطا اثناء اضافة الموظف</string>
+    <string name="error_adding_location">خطا اثناء اضافة الموقع</string>
+    <string name="error_create_report">خطا اثناء انشاء التقرير</string>
+    <string name="error_loading_location">خطا اثناء تحميل الموقع</string>
+    <string name="error_remove_report">خطا اثناء مسح التقرير. الرجاء المحاولة مرة اخرى</string>
+    <string name="error_sending_email">خطأ اثناء ارسال البريد الإلكترونى</string>
+    <string name="error_try_again">خطأ الرجاء المحاولة مرة اخرى</string>
+    <string name="error_update_password">خطأ اثناء تحديث الرقم السري. برجاء المحاولة مرة اخرى</string>
+    <string name="failed_to_upload_image">فشل فى رفع الصورة</string>
+    <string name="forget_password">هل نسيت الرقم السري</string>
+    <string name="full_name">الإسم بالكامل</string>
+    <string name="gender_female">النوع : انثى</string>
+    <string name="gender_male">النوع : ذكر</string>
+    <string name="history">السجل</string>
+    <string name="image_upload_success">تم رفع الصورة بنجاح</string>
+    <string name="image_uploading">رفع الصورة</string>
+    <string name="location_added_success">تم إضافة الموقع بنجاح</string>
+    <string name="location_details">تفاصيل الموقع</string>
+    <string name="location_detect_error">خطأ فى تحديد الموقع</string>
+    <string name="location_latitude">خط العرض</string>
+    <string name="location_longitude">خط الطول</string>
+    <string name="location_title">اسم الموقع</string>
+    <string name="locations">المواقع</string>
+    <string name="log_out">تسجيل الخروج</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="login_failed">فشل فى تسجيل الدخول</string>
+    <string name="login_to_continue">قم بتسجيل الدخول للإستمرار</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="logout_confirm">هل انت متأكد</string>
+    <string name="new_location">موقع جديد</string>
+    <string name="new_passowrd_not_match">الرقم السري غير متطابق</string>
+    <string name="new_password">رقم سري جديد</string>
+    <string name="not_valid_email">البريد الإلكترونى غير صالح</string>
+    <string name="not_valid_input">مدخلات غير صحيحة</string>
+    <string name="old_password">الرقم السري القديم</string>
+    <string name="old_password_not_match">الرقم السري القديم غير صحيح</string>
+    <string name="oops">خطأ</string>
+    <string name="outh_failed">خطأ</string>
+    <string name="password">الرقم السري</string>
+    <string name="password_not_correct">الرقم السري غير صحيح</string>
+    <string name="password_not_match">الرقم السري غير متطابق</string>
+    <string name="password_updated_success">تم تحديث الرقم السري</string>
+    <string name="phone_number">رقم الهاتف</string>
+    <string name="please_select_gender">النوع</string>
+    <string name="remove_report">مسح التقرير</string>
+    <string name="repeat_new_password">اعد كتابة الرقم السري الجديد</string>
+    <string name="report">تقرير</string>
+    <string name="report_has_created_n_successfully">تم إنشاء التقرير بنجاح</string>
+    <string name="report_removed_success">تم حذف التقرير بنجاح</string>
+    <string name="reports_history">سجل التقارير</string>
+    <string name="retry">اعد المحاولة</string>
+    <string name="save">حفظ</string>
+    <string name="save_login">تذكرنى</string>
+    <string name="select_picture">اختار صورة</string>
+    <string name="set_manual">اضافة يدويا</string>
+    <string name="settings">الإعدادات</string>
+    <string name="storage_permission_reqiest">برجاء اعطاء اذن التخزين</string>
+    <string name="submit">إدخال</string>
+    <string name="title_activity_maps">إضافة موقع جديد</string>
+    <string name="to_time"><![CDATA[>]]></string>
+    <string name="welcome_back">مرحبا بك</string>
+    <string name="your_employees_list_is_empty">قائمة الموظفين خالية</string>
+    <string name="your_locations_list_is_empty">قائمة المواقع خالية</string>
+    <string name="your_reports_list_is_empty">قائمة التقارير خالية</string>
+    <string name="employee_name">(%2$s) %1$s</string>
+    <string name="formatted_birth_day">%1$d/%2$d/%3$d</string>
+    <string name="employee_detail_name">%1$s تفاصيل</string>
+    <string name="employee_detail_birth_date"> تاريخ الميلاد  %1$s </string>
+    <string name="location_detected"> %1$s لقد قمت بالتسجيل فى موقع</string>
+    <string name="radius"> %1$s القطر :</string>
+    <string name="employees_attendance_from_to">%1$s الى  %2$sتقارير الموظفين من يوم </string>
+    <string name="user_records"> %1$s تسجيلات</string>
+    <string name="notification_checkbox">استقبال اشعارات عند تسجيل الدخول او الخروج</string>
+    <string name="receive_notifications">استقبال اشعارات الحضور</string>
+    <string name="notifications">الإشعارات</string>
+    <string name="application_settings">إعدادات البرنامج</string>
+    <string name="language">اللغة</string>
+    <string name="user_settings">إعدادات المستخدم</string>
+    <string name="change_password">تغيير الرقم السري</string>
+    <string name="checkings">التسجيلات</string>
+    <string name="zero">٠</string>
+    <string name="file_start_download">سيتم بدأ تنزيل الملف قريباّ</string>
+    <string name="download_complet">تم التنزيل</string>
+    <string name="back_slash">/</string>
+    <string name="employees_locations">مواقع الموظفين</string>
+    <string-array name="gender_array">
+        <item>اختر النوع</item>
+        <item>ذكر</item>
+        <item>إنثى</item>
+    </string-array>
+
+    <string-array name="employees_types">
+        <item>موظف عادى</item>
+        <item>مدير</item>
+        <item>ادمن</item>
+    </string-array>
+    <integer name="local_mirror_scale_x">-1</integer>
+    <string name="request">ارسال طلب</string>
+    <string name="tap_on_marker_to_get_info">اضغط على العلامة على الخريطة للحصول على المعلومات</string>
+    <string name="request_employees_location_success">Requesting Location Success</string>
+    <string name="request_location_message">Requesting Location Message Sent To Your Employees</string>
+    <string name="request_location_failed">Requesting Location Failed</string>
+    <string name="error_requesting_locations">Failed To Send Location Request To Your Employees</string>
+
+</resources>

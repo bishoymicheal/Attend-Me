@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="notification_group"
+        android:title="@string/notifications">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:icon="@drawable/ic_notifications"
+            android:key="notification_checkbox"
+            android:summary="@string/notification_checkbox"
+            android:title="@string/receive_notifications" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="app_settings_key"
+        android:title="@string/application_settings">
+
+        <ListPreference
+            android:defaultValue="en"
+            android:icon="@drawable/ic_language"
+            android:entries="@array/languages_array"
+            android:entryValues="@array/languages_array_value"
+            android:key="language_list"
+            android:summary="%s"
+            android:title="@string/language" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/user_settings">
+
+        <Preference
+            android:icon="@drawable/ic_password"
+            android:key="change_password"
+            android:title="@string/change_password">
+
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

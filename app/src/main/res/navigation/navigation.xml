@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/admin_dashboard">
+
+    <fragment
+        android:id="@+id/dashboard_fragment"
+        android:name="net.corpy.loginlocation.fragments.home.DashboardFragment"
+        android:label="@string/dashboard"
+        tools:layout="@layout/dashboard_fragment" />
+
+    <fragment
+        android:id="@+id/employees_fragment"
+        android:name="net.corpy.loginlocation.fragments.employees.EmployeesFragment"
+        android:label="@string/employees"
+        tools:layout="@layout/employees_fragment">
+        <action
+            android:id="@+id/action_employees_fragment_to_addEmployee"
+            app:destination="@id/addEmployee"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_employees_fragment_to_employeesDetails"
+            app:destination="@id/employeesDetails" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/reports_fragment"
+        android:name="net.corpy.loginlocation.fragments.reports.ReportsFragment"
+        android:label="@string/report"
+        tools:layout="@layout/reports_fragment" />
+    <fragment
+        android:id="@+id/addEmployee"
+        android:name="net.corpy.loginlocation.fragments.addEmployee.AddEmployee"
+        android:label="@string/add_employee"
+        tools:layout="@layout/add_empolyee_fragment" />
+    <fragment
+        android:id="@+id/locationsFragment"
+        android:name="net.corpy.loginlocation.fragments.locations.LocationsFragment"
+        android:label="@string/locations"
+        tools:layout="@layout/locations_fragment">
+
+        <action
+            android:id="@+id/action_locationsFragment_to_locationDetails"
+            app:destination="@id/locationDetails" />
+    </fragment>
+    <fragment
+        android:id="@+id/addLocationFragment"
+        android:name="net.corpy.loginlocation.fragments.addLocation.AddLocationFragment"
+        android:label="@string/add_new_location"
+        tools:layout="@layout/add_location_fragment" />
+    <fragment
+        android:id="@+id/admin_dashboard"
+        android:name="net.corpy.loginlocation.fragments.home.AdminDashboardFragment"
+        android:label="@string/dashboard"
+        tools:layout="@layout/fragment_admin_dashboard" />
+    <fragment
+        android:id="@+id/adminLocationsFragment"
+        android:name="net.corpy.loginlocation.fragments.locations.AdminLocationsFragment"
+        android:label="@string/locations"
+        tools:layout="@layout/fragment_admin_locations">
+        <action
+            android:id="@+id/action_locationsFragment_to_addLocationFragment"
+            app:destination="@id/addLocationFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_adminLocationsFragment_to_locationDetails"
+            app:destination="@id/locationDetails" />
+    </fragment>
+    <fragment
+        android:id="@+id/adminReportsFragment"
+        android:name="net.corpy.loginlocation.fragments.reports.AdminReportsFragment"
+        android:label="@string/employees_reports"
+        tools:layout="@layout/fragment_admin_reports">
+        <action
+            android:id="@+id/action_adminReportsFragment_to_reportsFragment"
+            app:destination="@id/reportsFragment" />
+        <action
+            android:id="@+id/action_adminReportsFragment_to_reportsHistoryFragment"
+            app:destination="@id/reportsHistoryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/reportsFragment"
+        android:name="net.corpy.loginlocation.fragments.reports.ReportsFragment"
+        tools:layout="@layout/reports_fragment" />
+    <fragment
+        android:id="@+id/locationDetails"
+        android:name="net.corpy.loginlocation.fragments.locations.LocationDetails"
+        android:label="@string/location_details"
+        tools:layout="@layout/fragment_location_details" />
+
+    <fragment
+        android:id="@+id/employeesDetails"
+        android:name="net.corpy.loginlocation.fragments.employees.EmployeeDetails"
+        android:label="@string/employee_details"
+        tools:layout="@layout/fragment_employee_details" />
+    <fragment
+        android:id="@+id/reportsHistoryFragment"
+        android:name="net.corpy.loginlocation.fragments.reports.ReportsHistoryFragment"
+        android:label="@string/reports_history"
+        tools:layout="@layout/fragment_reports_history" />
+    <fragment
+        android:id="@+id/settings_fragment"
+        android:name="net.corpy.loginlocation.fragments.SettingsFragment"
+        android:label="@string/settings" />
+    <fragment
+        android:id="@+id/employees_locations"
+        android:name="net.corpy.loginlocation.fragments.employeesLocations.EmployeesLocations"
+        android:label="@string/employees_locations"
+        tools:layout="@layout/fragment_employees_locations" />
+</navigation>

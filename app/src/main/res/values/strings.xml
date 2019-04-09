@@ -1,0 +1,158 @@
+<resources>
+    <string name="app_name">AttendMe</string>
+    <string name="email_password_are_same"><![CDATA[(Email & Password Are Same)]]></string>
+    <string name="title_activity_maps">Add New Location</string>
+    <string-array name="languages_array">
+        <item>English</item>
+        <item>عربى</item>
+    </string-array>
+    <string-array name="languages_array_value">
+        <item>en</item>
+        <item>ar</item>
+    </string-array>
+    <string-array name="gender_array">
+        <item>Select Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="employees_types">
+        <item>Normal Employee</item>
+        <item>Manager</item>
+        <item>Admin</item>
+    </string-array>
+    <string name="employee_name">%1$s (%2$s)</string>
+    <string name="default_time">--:--</string>
+    <string name="diff_time">%02d:%02d</string>
+    <string name="default_hours_diff">00:00 h</string>
+    <string name="to_time"><![CDATA[>]]></string>
+    <string name="formatted_birth_day">%1$d/%2$d/%3$d</string>
+    <string name="email_already_exist">E-mail Address Already Registered Before</string>
+    <string name="adding_employee">Adding Employee</string>
+    <string name="adding_employee_success">Employee Added Successfully</string>
+    <string name="error_adding_employee">Error While Adding Employee</string>
+    <string name="retry">Retry</string>
+    <string name="not_valid_input">Not Valid Input</string>
+    <string name="not_valid_email">Not Valid E-mail Address</string>
+    <string name="please_select_gender">Please Select Gender</string>
+    <string name="enter_employee_age">Please Enter Employee Age</string>
+    <string name="password_not_match">Password Not Match</string>
+    <string name="enter_location_title">Enter Location Title</string>
+    <string name="new_location">New Location</string>
+    <string name="location_added_success">Location Added Successfully</string>
+    <string name="error_adding_location">Error While Adding Location</string>
+    <string name="error_loading_location">Error Loading Location</string>
+    <string name="enter_latitude">Enter Latitude</string>
+    <string name="enter_longitude">Enter Longitude</string>
+    <string name="employee_detail_name">%1$s Details</string>
+    <string name="gender_male">Gender :Male</string>
+    <string name="gender_female">Gender :Female</string>
+    <string name="employee_detail_birth_date">Date of birth : %1$s </string>
+    <string name="storage_permission_reqiest">Storage Permission Needed</string>
+    <string name="Checkout">Checkout</string>
+    <string name="oops">Oops</string>
+    <string name="cannot_connect_to_server">Can\'t Connect To Server</string>
+    <string name="detecting_location">Detecting Location</string>
+    <string name="error_try_again">Error Try Again</string>
+    <string name="checking">Checking</string>
+    <string name="location_detect_error">Location Detected Error</string>
+    <string name="location_detected">You Have Checked In %1$s</string>
+    <string name="select_picture">Select Picture</string>
+    <string name="image_uploading">Image Uploaded</string>
+    <string name="image_upload_success">Image Has Been Uploaded Successfully</string>
+    <string name="failed_to_upload_image">Failed To Upload Image</string>
+    <string name="current_location">Latitude = %1$s \nLongitude = %2$s</string>
+    <string name="radius">Radius : %1$s</string>
+    <string name="error_create_report">Error Creating Report</string>
+    <string name="attendance_report">Attendance Report</string>
+    <string name="employees_attendance_from_to">Employees Attendance From %1$s To %2$s</string>
+    <string name="attendance_records">Attendance Records</string>
+    <string name="user_records">Records %1$s </string>
+    <string name="remove_report">Remove Report</string>
+    <string name="delete_confirm">Are You Sure Deleting This Report</string>
+    <string name="report_removed_success">Report Has Removed Successfully</string>
+    <string name="error_remove_report">\"Error While Removing Report \\nTry Again Later\"</string>
+    <string name="old_password_not_match">Old Password No Matched</string>
+    <string name="empty_password">Password Cannot be Empty</string>
+    <string name="new_passowrd_not_match">Repeated Password Not Match</string>
+    <string name="password_updated_success">Password Updated Successfully</string>
+    <string name="error_update_password">\"Error Updating Password \\n Try Again Later\"</string>
+    <string name="enter_your_email">Enter Your Email</string>
+    <string name="email_sent">New Password Has Sent To Your Email</string>
+    <string name="error_sending_email">Error Sending Email</string>
+    <string name="logout">Logout</string>
+    <string name="logout_confirm">Are You Sure</string>
+    <string name="email_not_correct">Email Not Correct</string>
+    <string name="password_not_correct">Password Not Correct</string>
+    <string name="login_failed">Logging Failed</string>
+    <string name="outh_failed">Oops Authentication failed</string>
+    <string name="submit">Submit</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="log_out">Log Out</string>
+    <string name="full_name">Full Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="description">Description</string>
+    <string name="birth_date">Birth Date</string>
+    <string name="automatic_password">Automatic Password</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="location_title">Location Title</string>
+    <string name="save">Save</string>
+    <string name="set_manual">Set Manual</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="repeat_new_password">Repeat New Password</string>
+    <string name="check_in">Check In</string>
+    <string name="report_has_created_n_successfully">Report Has Created  Successfully</string>
+    <string name="close">Close</string>
+    <string name="download">Download</string>
+    <string name="add_location">Add Location</string>
+    <string name="details">Details</string>
+    <string name="welcome_back">Welcome Back,</string>
+    <string name="login_to_continue">Login To Continue</string>
+    <string name="login">Login</string>
+    <string name="save_login">Save Login</string>
+    <string name="enter_location_details">Enter Location Details</string>
+    <string name="location_latitude">Location Latitude</string>
+    <string name="location_longitude">Location Longitude</string>
+    <string name="your_employees_list_is_empty">Your Employees List Is Empty.</string>
+    <string name="your_locations_list_is_empty">Your Locations List Is Empty.</string>
+    <string name="your_reports_list_is_empty">Your Reports List Is Empty.</string>
+    <string name="enter_circle_radius">Enter Circle Radius</string>
+    <string name="circle_radius_in_meters">Circle Radius In Meters</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="employees">Employees</string>
+    <string name="locations">Locations</string>
+    <string name="report">Report</string>
+    <string name="settings">Settings</string>
+    <string name="history">history</string>
+    <string name="add_employee">Add Employee</string>
+    <string name="add_new_location">Add New Location</string>
+    <string name="employees_reports">Employees Reports</string>
+    <string name="location_details">Location Details</string>
+    <string name="employee_details">Employee Details</string>
+    <string name="reports_history">Reports History</string>
+    <string name="notification_checkbox">Receive Notification When Employee Check in or out</string>
+    <string name="receive_notifications">Receive Attendance Notification</string>
+    <string name="notifications">Notification</string>
+    <string name="application_settings">App Settings</string>
+    <string name="language">Language</string>
+    <string name="user_settings">User Settings</string>
+    <string name="change_password">Change Password</string>
+    <string name="checkings">CheckIns</string>
+    <string name="zero">0</string>
+    <string name="file_start_download">File Will Start Downloading Soon</string>
+    <string name="download_complet">Download Completed</string>
+    <string name="back_slash">/</string>
+    <integer name="local_mirror_scale_x">1</integer>
+
+    <string name="employees_locations">Employees Locations</string>
+    <string name="request">Request</string>
+    <string name="tap_on_marker_to_get_info">Tap Any Marker On Map To Get Info</string>
+    <string name="request_employees_location_success">Requesting Location Success</string>
+    <string name="request_location_message">Requesting Location Message Sent To Your Employees</string>
+    <string name="request_location_failed">Requesting Location Failed</string>
+    <string name="error_requesting_locations">Failed To Send Location Request To Your Employees</string>
+
+</resources>

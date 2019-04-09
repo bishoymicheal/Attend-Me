@@ -1,0 +1,104 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'io.fabric'
+apply plugin: 'com.google.firebase.firebase-perf'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "net.corpy.loginlocation"
+        minSdkVersion 19
+        targetSdkVersion 28
+        versionCode 1
+        versionName "0.0.1"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+        vectorDrawables.useSupportLibrary = true
+        buildConfigField("String", "API_KEY", API_KEY)
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'androidx.core:core-ktx:1.1.0-alpha04'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.0.0'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.0.0'
+
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
+
+
+    // Firebase dependency
+    implementation 'com.google.firebase:firebase-core:16.0.7'
+    implementation 'com.google.firebase:firebase-firestore:18.0.1'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'com.google.firebase:firebase-messaging:17.3.4'
+    implementation 'com.google.firebase:firebase-auth:16.1.0'
+    implementation 'com.google.firebase:firebase-functions:16.1.3'
+    implementation 'com.google.firebase:firebase-storage:16.0.5'
+
+    implementation 'com.crashlytics.sdk.android:crashlytics:2.9.9'
+    implementation 'com.google.firebase:firebase-perf:16.2.3'
+
+
+    // progress view
+    implementation 'com.github.ybq:Android-SpinKit:1.2.0'
+
+
+    // navigation
+    implementation 'android.arch.navigation:navigation-fragment-ktx:1.0.0-beta02'
+    implementation 'android.arch.navigation:navigation-ui-ktx:1.0.0-beta02'
+
+    implementation 'com.android.support:multidex:1.0.3'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+
+    // dialog
+    implementation 'com.pnikosis:materialish-progress:1.7'
+
+    // FirebaseUi
+    implementation 'com.firebaseui:firebase-ui-firestore:4.3.1'
+
+    implementation 'com.google.android.gms:play-services-maps:16.1.0'
+    implementation 'com.google.maps.android:android-maps-utils:0.5'
+    implementation 'com.google.android.gms:play-services-location:16.0.0'
+
+    implementation 'com.hazem.utilslib:permissionslib:0.0.1'
+    implementation 'com.hazem.utilslib:utilslib:0.0.3'
+
+    debugImplementation 'com.squareup.leakcanary:leakcanary-android:1.6.2'
+    releaseImplementation 'com.squareup.leakcanary:leakcanary-android-no-op:1.6.2'
+    // Optional, if you use support library fragments:
+    debugImplementation 'com.squareup.leakcanary:leakcanary-support-fragment:1.6.2'
+
+
+    // circular image view
+    implementation 'de.hdodenhof:circleimageview:3.0.0'
+
+
+    implementation 'com.github.myinnos:AlphabetIndex-Fast-Scroll-RecyclerView:1.0.92'
+    implementation 'com.shuhart.stickyheader:stickyheader:1.0.5'
+
+
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'androidx.preference:preference:1.0.0'
+
+
+//    implementation 'com.github.delight-im:Android-Languages:v1.0.1'
+
+}
+apply plugin: 'com.google.gms.google-services'

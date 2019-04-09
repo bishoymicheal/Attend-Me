@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.addEmployee.AddEmployee">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/fullname_et_layout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:hint="@string/full_name"
+                app:boxBackgroundMode="outline"
+                app:errorEnabled="false"
+                app:hintAnimationEnabled="true"
+                app:hintEnabled="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/fullname_et"
+                    android:layout_width="match_parent"
+                    android:imeOptions="actionNext"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:singleLine="true" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/email_et_layout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:hint="@string/email_address"
+                app:boxBackgroundMode="outline"
+                app:errorEnabled="false"
+                app:hintAnimationEnabled="true"
+                app:hintEnabled="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/fullname_et_layout"  >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/email_et"
+                    android:layout_width="match_parent"
+                    android:imeOptions="actionNext"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"
+                    android:singleLine="true" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/phone_et_layout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:hint="@string/phone_number"
+                app:boxBackgroundMode="outline"
+                app:errorEnabled="false"
+                app:hintAnimationEnabled="true"
+                app:hintEnabled="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/email_et_layout">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/phone_et"
+                    android:imeOptions="actionNext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="phone"
+                    android:singleLine="true" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Spinner
+                android:id="@+id/gender_spinner"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/gradient_spinner"
+                android:clipChildren="true"
+                android:entries="@array/gender_array"
+                android:gravity="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/phone_et_layout" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/description_et_layout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/description"
+                app:boxBackgroundMode="outline"
+                app:errorEnabled="false"
+                app:helperText="Ex Senior Manager"
+                app:helperTextEnabled="true"
+                app:hintAnimationEnabled="true"
+                app:hintEnabled="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/gender_spinner">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/description_et"
+                    android:imeOptions="actionNext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:singleLine="true" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/birth_date_et_layout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/birth_date"
+                app:boxBackgroundMode="outline"
+                app:errorEnabled="false"
+                app:hintAnimationEnabled="true"
+                app:hintEnabled="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/description_et_layout">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/birth_date_et"
+                    android:layout_width="match_parent"
+                    android:imeOptions="actionNext"
+                    android:layout_height="wrap_content"
+                    android:inputType="date"
+                    android:singleLine="true" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Spinner
+                android:id="@+id/employees_types"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/gradient_spinner"
+                android:clipChildren="true"
+                android:entries="@array/employees_types"
+                android:gravity="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/birth_date_et_layout" />
+
+
+            <CheckBox
+                android:id="@+id/automatic_password_ck"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:checked="true"
+                android:clickable="true"
+                android:focusable="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:text="@string/automatic_password"
+                app:layout_constraintTop_toBottomOf="@+id/employees_types" />
+
+            <TextView
+                android:id="@+id/auto_password_txt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="@string/email_password_are_same"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.501"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/automatic_password_ck" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/password_et_layout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:hint="@string/password"
+                app:boxBackgroundMode="outline"
+                app:errorEnabled="false"
+                android:visibility="gone"
+                app:hintAnimationEnabled="true"
+                app:hintEnabled="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/auto_password_txt"
+                app:passwordToggleEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:imeOptions="actionNext"
+                    android:id="@+id/password_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:singleLine="true" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/password_confirm_et_layout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/confirm_password"
+                android:clickable="true"
+                app:boxBackgroundMode="outline"
+                app:errorEnabled="false"
+                app:hintAnimationEnabled="true"
+                app:hintEnabled="true"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/password_et_layout"
+                app:passwordToggleEnabled="true"
+                android:focusable="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/password_confirm_et"
+                    android:layout_width="match_parent"
+                    android:imeOptions="actionNext"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:singleLine="true" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <Button
+                android:id="@+id/ok_btn"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="26dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="32dp"
+                android:background="@color/primaryColor"
+                android:text="@string/save"
+                android:textColor="@android:color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/password_confirm_et_layout" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+    <include
+        android:id="@+id/progress_view"
+        android:visibility="gone"
+        layout="@layout/progress_layout"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

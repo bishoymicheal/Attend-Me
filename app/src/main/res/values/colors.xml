@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#16738F</color>
+    <color name="primaryLightColor">#54A2BF</color>
+    <color name="primaryDarkColor">#004761</color>
+    <color name="primaryTextColor">#ffffff</color>
+    <color name="alpha_color">#5500000F</color>
+    <color name="text_times_color">#38D536</color>
+
+</resources>

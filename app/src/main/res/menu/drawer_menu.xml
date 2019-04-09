@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/admin_dashboard"
+            android:icon="@drawable/ic_dashboard"
+            android:title="@string/dashboard" />
+
+        <item
+            android:id="@+id/dashboard_fragment"
+            android:icon="@drawable/ic_dashboard"
+            android:title="@string/dashboard" />
+
+
+        <item
+            android:id="@+id/employees_fragment"
+            android:icon="@drawable/ic_empolyee_add"
+            android:title="@string/employees" />
+
+        <item
+            android:id="@+id/adminLocationsFragment"
+            android:icon="@drawable/ic_locations"
+            android:title="@string/locations" />
+
+        <item
+            android:id="@+id/locationsFragment"
+            android:icon="@drawable/ic_locations"
+            android:title="@string/locations" />
+
+
+        <item
+            android:id="@+id/adminReportsFragment"
+            android:icon="@drawable/ic_download"
+            android:title="@string/report" />
+
+        <item
+            android:id="@+id/reports_fragment"
+            android:icon="@drawable/ic_download"
+            android:title="@string/report" />
+
+        <item
+            android:id="@+id/employees_locations"
+            android:icon="@drawable/ic_location_employees"
+            android:title="@string/employees_locations" />
+
+        <item
+            android:id="@+id/settings_fragment"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/settings" />
+
+    </group>
+</menu>
+
+
+
